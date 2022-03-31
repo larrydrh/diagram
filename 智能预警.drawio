@@ -1,14 +1,47 @@
-<mxfile host="app.diagrams.net" modified="2022-03-30T08:23:06.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="VCLChD-0FxlO4OA6oGWq" version="17.2.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-31T06:16:08.691Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.84 Safari/537.36" etag="7sejie5hHMOjLWrL5Yn1" version="17.2.5" type="github">
   <diagram id="ZJ3P73_0GnTi9dQlcdip" name="Page-1">
     <mxGraphModel dx="1697" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qfR6J_gvIjfCB1Atp6Te-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
-          <mxGeometry x="400" y="430" width="30" height="60" as="geometry" />
+        <mxCell id="4DyUonKK345yeLOGrlKA-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qfR6J_gvIjfCB1Atp6Te-1" target="4DyUonKK345yeLOGrlKA-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qfR6J_gvIjfCB1Atp6Te-2" value="创建预警规则" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="4DyUonKK345yeLOGrlKA-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qfR6J_gvIjfCB1Atp6Te-1" target="qfR6J_gvIjfCB1Atp6Te-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4DyUonKK345yeLOGrlKA-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qfR6J_gvIjfCB1Atp6Te-1" target="4DyUonKK345yeLOGrlKA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4DyUonKK345yeLOGrlKA-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qfR6J_gvIjfCB1Atp6Te-1" target="4DyUonKK345yeLOGrlKA-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qfR6J_gvIjfCB1Atp6Te-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="475" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4DyUonKK345yeLOGrlKA-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qfR6J_gvIjfCB1Atp6Te-2" target="4DyUonKK345yeLOGrlKA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="4DyUonKK345yeLOGrlKA-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qfR6J_gvIjfCB1Atp6Te-2" target="4DyUonKK345yeLOGrlKA-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qfR6J_gvIjfCB1Atp6Te-2" value="创建预警规则" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="360" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4DyUonKK345yeLOGrlKA-2" value="&amp;nbsp;创建基于规则的预警" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="300" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4DyUonKK345yeLOGrlKA-3" value="&amp;nbsp;创建智能预警" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="390" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4DyUonKK345yeLOGrlKA-4" value="修改预警规则" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="470" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4DyUonKK345yeLOGrlKA-5" value="查看预警规则" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="570" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4DyUonKK345yeLOGrlKA-11" value="预警自动分析" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="660" width="140" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
