@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2022-07-21T12:32:50.547Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" version="20.1.4" etag="DLPJhGWz2xIndDmdVQ2r" type="github"><diagram id="WvSe3uzlSUe7wNC3t9Aw">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-21T13:03:03.393Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="1n6zBft7Uum752vwQclZ" version="20.1.4" type="github">
+  <diagram id="WvSe3uzlSUe7wNC3t9Aw" name="第 1 页">
+    <mxGraphModel dx="1697" dy="909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HrELLKZ-sz3ddbd62p8C-1" value="网关" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="250" width="70" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HrELLKZ-sz3ddbd62p8C-2" value="redis缓存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="480" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrELLKZ-sz3ddbd62p8C-3" value="短语音服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="250" width="70" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HrELLKZ-sz3ddbd62p8C-4" value="mysql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="555" width="390" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HrELLKZ-sz3ddbd62p8C-5" value="kafka" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="250" width="70" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HrELLKZ-sz3ddbd62p8C-6" value="ASR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="250" width="70" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HrELLKZ-sz3ddbd62p8C-7" value="grpc客户端sdk" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="820" width="80" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="HrELLKZ-sz3ddbd62p8C-8" value="实时语音服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="820" width="80" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="HrELLKZ-sz3ddbd62p8C-10" value="grpc双向流" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HrELLKZ-sz3ddbd62p8C-7" target="HrELLKZ-sz3ddbd62p8C-8">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="240" y="1000" as="sourcePoint" />
+            <mxPoint x="340" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HrELLKZ-sz3ddbd62p8C-11" value="实时语音asr" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="820" width="80" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="HrELLKZ-sz3ddbd62p8C-12" value="grpc双向流" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="460" y="969.5" as="sourcePoint" />
+            <mxPoint x="610" y="969.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
